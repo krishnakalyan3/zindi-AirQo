@@ -59,3 +59,5 @@ sub$target <- rowMeans(pred_mat)
 
 write_path = "/Users/kkalyan/github/airQo/submissions/"
 write.csv(sub, paste0(write_path,"r-baseline-catboost-cv-7k-20cv.csv"), row.names = FALSE)
+
+# https://patchwork.data-imaginist.com/

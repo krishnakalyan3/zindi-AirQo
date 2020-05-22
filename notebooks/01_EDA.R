@@ -1,5 +1,5 @@
 # install.packages(c("vroom", "tidyverse"))
-installed.packages("ggthemes")
+# installed.packages("ggthemes")
 library(vroom)
 library(dplyr)
 library(tidyverse)

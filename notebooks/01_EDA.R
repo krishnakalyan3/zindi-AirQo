@@ -63,6 +63,7 @@ submit <- raw_tests %>% select(c("ID", "location")) %>%
 
 write_path = "/Users/kkalyan/github/airQo/submissions/"
 write.csv(submit, paste0(write_path,"r-baseline-mean-all.csv"), row.names = FALSE)
+
 # Remove NAs
 # Create Featuers
 # Plot
